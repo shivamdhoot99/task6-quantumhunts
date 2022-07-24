@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vidBox{
+    border-style: solid;
+    border-color: white;
+    height: 50vh;
+    width: 60vw;
+    margin: 5vh auto auto auto;
+}
+h1{
+    color: white;
+    font-size: 8vh;
+    margin-top: 5vh;
+    align-self: center;
+    display: flex;
+    justify-self: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+    
+}
+h3{
+  color: white;
+  margin-top: 5vh;
+  align-self: center;
+  display: flex;
+  justify-self: center;
+  font-size: 18px;
+  text-align: center;
+  width: 80%;
+  justify-content: center;
+
+}
+
+button{
+    width:90px;
+    height:40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-self: center;
+    margin-top: 2vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: white;
+    font-size: 20px;
+}
+@media (min-width:550px) and (max-width:768px){
+    h3{
+        font-size: 25px;
+    }
+    h5{
+        font-size: 25px;
+
+    }
+    h1{
+        margin-top: 4vh;
+    }
+}
